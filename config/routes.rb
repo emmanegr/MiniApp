@@ -2,6 +2,8 @@ MiniApp::Application.routes.draw do
   
 
   
+  resources :microposts
+
   resources :usuarios
 
   # The priority is based upon order of creation:
